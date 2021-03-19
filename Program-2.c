@@ -11,15 +11,17 @@
 #include <stdio.h>
 int main() 
 {
-	      char str1[50], str2[50];
-	      int i;
-        printf("enter the string 1");
-	      scanf("%s",str1);
-	      for (i=0;i<50;i++);                  //Complete the code in for-loop & copy logic
-  {                          
-		            str2[i]=str1[i] ;
-	      }
-	      str2[i]=str1[50];                  //Complete the statement
-	      printf("The copied String-2 = %s",str2);
-	      return 0;
+ char str1[50], str2[50];
+ int i;
+ printf("Enter a string-1: ");
+ scanf("%s",str1);
+ for (i=0;i<50;i++);               
+     //Complete the code in for-loop & copy logic
+{                          
+	str2[i]=str1[i] ; 
+}
+str2[i]=str1[50];                
+  //Complete the statement
+printf("The copied String-2 = %s",str1);
+	return 0;
 }
